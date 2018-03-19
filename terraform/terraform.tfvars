@@ -1,3 +1,4 @@
+aws_region = "eu-west-1"
 aws_vpc.main.id = ""
 aws_subnet.main.id = ""
 aws_route_table.r.id = ""

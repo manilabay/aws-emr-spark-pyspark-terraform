@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"
+  region = "${aws_region}"
 }
 
 resource "aws_emr_cluster" "tf-test-cluster" {
